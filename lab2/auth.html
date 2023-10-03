@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Авторизация</title>
+
+    <link rel="stylesheet" href="auth_style.css">
+</head>
+<body>
+    <form action="https://httpbin.org/post" method="post">
+        <div class="auth_content">
+            <div class="login">
+                <label for="user">Введите логин</label><br>
+                <input type="text" name="user" placeholder="username" id="user" class="input_styles">
+            </div>
+            <div class="password">
+                <label for="password">Введите пароль</label><br>
+                <input type="password" name="pass" id="password" class="input_styles">
+            </div>
+            <div class="check">
+                <input type="checkbox" name="check" id="check">
+                <label for="check">Запомнить меня</label>
+            </div>
+            <input type="submit" name="" id="log_in" placeholder="Войти">
+            <a href="index.html"><div class="to_index">На главную</div></a>
+        </div>
+    </form>
+</body>
+</html>

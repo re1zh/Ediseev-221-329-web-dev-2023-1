@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Обратная связь</title>
+
+    <link rel="stylesheet" href="feedback_style.css">
+</head>
+<body>
+    <form action="https://httpbin.org/post" method="post">
+        <div class="fb_content">
+            <h1 class="main_text">Форма обратной связи</h1>
+            <div class="snp">
+                <label for="snp">ФИО</label>
+                <input type="text" name="snp" id="snp" class="snp_input">
+            </div>
+            <div class="element">
+                <label for="">Адрес электронной почты</label>
+                <input type="text" name="mail" id="mail" placeholder="Введите email">
+            </div>
+            <div class="radio_btn">
+                <label>Откуда вы узнали о нас?</label>
+                <div class="radio_btn_2">
+                    <input type="radio">
+                    <label for="">Рассказали друзья</label>
+
+                    <input type="radio">
+                    <label for="">Реклама в интернете</label>
+                </div>
+            </div>
+            <div class="element">
+                <label for="selector">Категория обращения</label>
+                <select name="select" id="selector">
+                    <option value="offer">Предложение</option>
+                    <option value="comp">Жалоба</option>
+                </select>
+            </div>
+
+            <div class="element">
+                <label for="area">Текст сообщения</label>
+                <textarea name="area" id="area" cols="30" rows="10"></textarea>
+            </div>
+            
+            <div class="element">
+                <label for="file">Вложение</label>
+                <input type="file" name="file" id="file">
+            </div>
+
+            <div class="check">
+                <input type="checkbox" name="check" id="check">
+                <label for="check">Даю согласие на обработку персональных данных</label>
+            </div>
+
+            <input type="submit" name="" id="log_in" placeholder="Отправить">
+
+            <a href="index.html"><div class="to_index">На главную</div></a>
+        </div>
+    </form>
+</body>
+</html>

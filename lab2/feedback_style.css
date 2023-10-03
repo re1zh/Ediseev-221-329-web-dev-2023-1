@@ -1,0 +1,111 @@
+body {
+    background-image: url(img/feedback_wp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+.fb_content {
+    background-color: rgba(74, 110, 226, 0.688);
+    margin: 0 auto;
+    width: 400px;
+    margin-top: 175px;
+    border: 5px solid rgba(33, 28, 28, 0.993);
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"] {
+    border-radius: 5px;
+    width: 378px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.element {
+    display: grid;
+    grid-template-rows: 1fr;
+    margin-top: 10px;
+}
+
+.snp {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.mail {
+    display: grid;
+    grid-template-rows: 1fr;
+    margin-top: 10px;
+}
+
+.radio_btn {
+    margin-top: 10px;
+}
+
+.radio_btn_2 {
+    padding-top: 5px;  
+}
+
+select {
+    border-radius: 5px;
+    width: 378px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+textarea {
+    margin-top: 5px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    width: 378px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: bisque;
+    font-weight: bold;
+}
+
+#file {
+    margin-top: 5px;
+}
+
+.check {
+    margin-top: 10px;
+    display: block;
+}
+
+.to_index {
+    margin-top: 30px;
+    border: 1px solid black;
+    background-color: #279235;
+    width: 150px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    font-family: Arial;
+    font-style: bold;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
