@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Red Hot Chili Peppers</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Oswald:wght@600&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Nunito+Sans:opsz@6..12&family=Oswald:wght@600&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div>
+                <nav class="menu first-font">
+                    <ul>
+                        <li><a href="#music">MUSIC</a></li>
+                        <li><a href="#merch">MERCH</a></li>
+                        <li><a href="#community">COMMUNITY</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="container main-content">
+                <div class="image-container">
+                    <img class="img-rhcp-logo" src="img/logo.svg" alt="rhcp_members">
+                </div>
+                <div class="description-content first-font">
+                    <div class="img-concert-container">
+                        <img class="img-concert" src="img/concert.jpg" alt="rhcp_concert">
+                    </div>
+                    <div class="description-text-container">
+                        <p>
+                            Red Hot Chili Peppers  — американская рок-группа, образованная в 1983 году в Калифорнии вокалистом Энтони Кидисом, 
+                            басистом Майклом Бэлзари (больше известным как Фли), гитаристом Хиллелом Словаком и барабанщиком Джеком Айронсом. 
+                            Обладает 7 премиями «Грэмми». Во всём мире проданы более 80 миллионов копий их альбомов. 
+                            14 апреля 2012 года группа была включена в Зал славы рок-н-ролла. 
+                        </p>
+                    </div>
+                </div>
+                <div id="music" class="music-container second-font">
+                    <h1>САМЫЕ ПРОДАВАЕМЫЕ АЛЬБОМЫ</h1>
+                    <div class="albums-container">
+                        <img src="img/bssm.jpg" alt="">
+                        <img src="img/califonication.jpeg" alt="">
+                        <img src="img/by_the_way.jpg" alt="">
+                        <img src="img/stadium_arcadium.jpg" alt="">
+                    </div>
+                    <a href="music.html">
+                        <div class="music-btn">ПОДРОБНЕЕ</div>
+                    </a>
+                </div>
+                <div class="community-merch-section second-font">
+                    <div id="merch" class="merch-container">
+                        <p>НОВЫЙ МЕРЧАНДАЙЗ</p>
+                        <img src="img/t-shirt.jpg" alt="">
+                        <img src="img/jacket.jpeg" alt="">
+                        <img src="img/sock.jpg" alt="">
+                    </div>
+                    <div id="community" class="community-container">
+                        <p>ПРИСОЕДИНЯЙТЕСЬ К НАШЕМУ СООБЩЕСТВУ</p>
+                        <input id="my_input" class="comm_input first-font" placeholder="Введите свое имя">
+                        <button class="submit_btn first-font" onclick="msg()">Подписаться</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="first-font">
+            <div class="tag">
+                &copy; 2023 re1zh. All Rights Reserved
+            </div>
+        </footer>
+
+        <script>
+            function msg(){
+                let inputVal = document.getElementById("my_input").value;
+                alert(`Спасибо за подписку, ${inputVal}!`);
+            }
+        </script>
+    </body>
+</html>
