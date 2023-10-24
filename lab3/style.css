@@ -94,12 +94,8 @@ a {
 }
 
 .music-container {
-    height: 500px;
+    height: 720px;
     background-color: rgb(198, 29, 29);
-}
-
-.music-container img {
-    height: 300px;
 }
 
 .music-container h1{
@@ -112,7 +108,29 @@ a {
 
 .albums-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+
+.albums-container-1 {
+    display: flex;
+}
+
+.albums-container-2 {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.albums-img1 {
+    width: 500px;
+    height: 500px;
+}
+
+.albums-img2 {
+    width: 250px;
+    height: 250px;
 }
 
 .music-btn {

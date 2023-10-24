@@ -1,0 +1,21 @@
+@media print {
+    .menu {
+        display: none;
+    }
+
+    .albums-container-elem {
+        flex: 25%;
+    }
+
+    .albums-container-elem img{
+        height: 130px;
+    }
+
+    .fav-songs-container {
+        display: none;
+    }
+
+    footer {
+        margin-top: 400px;
+    }
+}
